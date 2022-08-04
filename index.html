@@ -19,11 +19,13 @@
 
 <link href="./main.d8e0d294.css" rel="stylesheet"></head>
 
-<body class="">
+<body >
 
 <!-- Add your content of header -->
-<div class="background-color-layer" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/2a/Ripple_effect_on_water.jpg')"
-></div>
+<div class="background-color-layer" 
+> 
+</div>
+
 <main class="content-wrapper">
   <header class="white-text-container section-container">
     <div class="text-center">
@@ -368,6 +370,14 @@
   </div>
 </footer>
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="http://www.jqueryscript.net/demo/jQuery-Plugin-For-Water-Ripple-Animation-ripples/js/jquery.ripples.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $('.background-color-layer').ripples('show');
+    });
+</script>
 <script>
   document.addEventListener("DOMContentLoaded", function (event) {
      scrollRevelation('.card');
@@ -386,6 +396,10 @@
   ga('send', 'pageview');
 </script>
 
---><script type="text/javascript" src="./main.bc58148c.js"></script></body>
+-->
 
+<!-- <script type="text/javascript" src="./main.bc58148c.js"></script> -->
+
+
+</body>
 </html>
